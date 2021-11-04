@@ -1,0 +1,60 @@
+{
+    "nodes": [
+        {
+            "id":"Child1",
+            "cluster":"node1"
+        },
+        {
+            "id":"Child2",
+            "cluster":"node2"
+        },
+        {
+            "id":"Child3",
+            "cluster":"node3"
+        },
+        {
+            "id":"Child4",
+            "cluster":"node4"
+        },
+        {
+            "id":"Child5",
+            "cluster":"node5"
+        },
+        {
+            "id":"Child6",
+            "cluster":"node6"
+        }
+    ],   
+    "edges": [
+        {
+            "source": "Child1",
+            "target": "Child2",
+            "cluster": "edge1"
+        },
+        {
+            "source": "Child2",
+            "target": "Child3",
+            "cluster": "edge2"
+        },
+        {
+            "source": "Child3",
+            "target": "Child4",
+            "cluster": "edge3"
+        },
+        {
+            "source": "Child4",
+            "target": "Child5",
+            "cluster": "edge4"
+        },
+        {
+            "source": "Child5",
+            "target": "Child6",
+            "cluster": "edge5"
+        },
+        {
+            "source": "Child6",
+            "target": "Child1",
+            "cluster": "edge6"
+        }
+    ]
+}
